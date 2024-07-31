@@ -1,4 +1,4 @@
-# GitHub Model Project
+# STORY GENERATION PROJECT
 
 ## Introduction
 
@@ -12,7 +12,7 @@ To get started with this project, you need to clone the repository and install t
 
    ```bash
    git clone https://github.com/usman-bsee/storyGen.git
-   cd githubModelProject
+   cd storyGen
    ```
 2. **Set up a conda environment:**
 
