@@ -9,29 +9,28 @@ This project is a comprehensive implementation designed to facilitate various fu
 To get started with this project, you need to clone the repository and install the required dependencies. Follow the steps below:
 
 1. **Clone the repository:**
-    ```bash
-    git clone https://github.com/yourusername/githubModelProject.git
-    cd githubModelProject
-    ```
 
+   ```bash
+   git clone https://github.com/usman-bsee/storyGen.git
+   cd githubModelProject
+   ```
 2. **Set up a conda environment:**
-    ```bash
-    conda create -n storyGen python=3.12
-    conda activate storyGen
-    ```
 
+   ```bash
+   conda create -n storyGen python=3.12
+   conda activate storyGen
+   ```
 3. **Install the required dependencies:**
-    ```bash
-    pip install -r requirements.txt
-    ```
 
+   ```bash
+   pip install -r requirements.txt
+   ```
 4. **How to Setup Redis Server:**
 
-    Check the `REDIS-SETUP-README` file for more details.
-
+   Check the `REDIS-SETUP-README` file for more details.
 5. **How to Setup Celery Worker:**
 
-    Check the `CELERY-SETUP-README` file for more details.
+   Check the `CELERY-SETUP-README` file for more details.
 
 ## Usage
 
@@ -42,3 +41,4 @@ To start the Redis server, follow the `REDIS-SETUP-README` file for setup instru
 ```bash
 python server_app.py
 
+```
