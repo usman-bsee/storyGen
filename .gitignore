@@ -1,0 +1,5 @@
+__pycache__
+.env
+log-flaskapp.txt
+requirements2.txt
+script-org--celery.sh.org

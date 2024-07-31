@@ -1,0 +1,17 @@
+[Unit]
+Description=Celery Worker
+After=network.target
+After=flaskapp.service
+Requires=flaskapp.service
+
+[Service]
+Type=simple
+WorkingDirectory=/home/ubuntu/storyGen
+ExecStart=/home/ubuntu/storyGen/script-celery.sh
+Restart=always
+RestartSec=0
+User=ubuntu
+Group=ubuntu
+
+[Install]
+WantedBy=multi-user.target
